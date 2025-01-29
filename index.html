@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Video Player</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+        body {
+            background-color: #ffdde1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            font-family: 'Dancing Script', cursive;
+        }
+
+        h1 {
+            color: #d63384;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .video-container {
+            position: relative;
+            background: #fff;
+            padding: 10px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        video {
+            width: 300px;
+            border-radius: 100px;
+        }
+
+        .hearts {
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            font-size: 30px;
+            color: #ff4081;
+        }
+
+        .footer {
+            margin-top: 20px;
+            color: #c2185b;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Love in Every Frame ❤️</h1>
+
+    <div class="video-container">
+        <span class="hearts">❤️❤️</span>
+        <video controls>
+            <source src="VID-20250129-WA0082.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="footer">Made with Love 💕</div>
+
+</body>
+</html>
